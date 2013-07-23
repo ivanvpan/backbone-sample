@@ -1,0 +1,64 @@
+<div class="bio-inner">
+    <div class="header">
+        <div class="bio-logo">
+            <a href="#">
+                <img src="assets/img/bio-logo.png"></img>
+            </a>
+        </div>
+        <div class="content">
+            <a class="icon" href="http://facebook.com">
+                <img src="assets/img/facebook-icon.png"></img>
+            </a>
+            <a class="icon" href="http://facebook.com">
+                <img src="assets/img/twitter-icon.png"></img>
+            </a>
+            <div class="time">
+                Fridays @ 10:30/9:30c
+            </div>
+        </div>
+    </div>
+
+    <div class="bio-photo">
+        <img src="assets/img/danny-bio.jpg"></img>
+    </div>
+
+    <div class="bio-info">
+        <section class="about">
+            <h2>About</h2>
+            <div class="section-inner">
+                {{ bio }}
+            </div>
+        </section>
+        <section class="videos">
+            <h2>Videos</h2>
+            <div class="section-inner">
+                <ul>
+                    {{#each videos}}
+                        <li class="video">
+                            <a href="#">
+                                <img data-video-src="{{ this.src }}" src="/image/4f8b3b85463e8e232700100e/120/80/crop/test.jpg"></img>
+                            </a>
+                            <div class="video-descr">
+                                {{this.descr}}
+                            </div>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </section>
+        <section class="photos">
+            <h2>Photos</h2>
+            <div class="section-inner">
+                <ul>
+                    {{#each photos}}
+                        <li class="photo">
+                            <a href="/image/{{this}}/620/350/crop/test.jpg">
+                                <img src="/image/{{this}}/120/80/crop/test.jpg"></img>
+                            </a>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>

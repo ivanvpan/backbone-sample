@@ -1,0 +1,65 @@
+{
+    "lang":"en_US",
+
+    "VoteAgain":{
+        "message":"Thanks for Voting!",
+        "button":"Vote Again"
+    },
+
+    "WatchVideos":{
+        "message":"Watch the Videos!",
+        "button":"Watch Videos"
+    },
+
+    "NextMatch":{
+        "message":"You're {0} complete!",
+        "button":"Next Match"
+    },
+
+    "NextResult":{
+        "message":"See Other Winners!",
+        "button":"Next Result"
+    },
+
+    "Countdown":{
+        "heading":"Round {0}<br/>Ends In"
+    },
+
+    "SocialShare":{
+        "message":"Share your Vote!",
+        "facebook":{
+            "title":"Share on Facebook",
+            "text":{
+                "open":"What are you waiting for? Help your favorite artist take the top slot in Fuse’s end of the year countdown!",
+                "closed":"{0} beat {1} in round {2} of #FuseTop40. Who will be #1?",
+                "generic":"I just voted in round {0} on #FuseTop40!"
+            }
+        },
+        "twitter":{
+            "title":"Share on Twitter",
+            "text":{
+                "open":"I think {0} deserves to be @FuseTV's #1 video of the year! Disagree? Vote here: {3} #FuseTop40",
+                "closed":"{0} beat {1} in round {2} of #FuseTop40. Who will be #1?",
+                "generic":"I just voted in round {0} on #FuseTop40!"
+            }
+        },
+        "linkName":"Vote for Fuse's #1 Video of 2012"
+    },
+
+    "Rounds":{
+        "heading":"Round"
+    },
+
+    "Intro":{
+        "message":"We pitted the top 40 music videos against each other in head-to-head polls. The winners advance to the next round and face new competitors. In round 3, we bring back the wildcards – 4 eliminated artists with the most votes from round 1 and 2 from round 2. We'll reveal your #1 video on-air in December. Don't wait.",
+        "button":"Start voting now!"
+    },
+
+    "VoteNowBtn":"Vote Now",
+    "VoteInCurrRoundBtn": "Vote in current round",
+
+    "VoteBtn":"Vote",
+    "ResultsBtn":"Results",
+
+    "TuneInMsg":"Top 40 of 2012: Coming to Fuse in December!"
+}

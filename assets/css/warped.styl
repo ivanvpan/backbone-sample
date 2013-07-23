@@ -1,0 +1,249 @@
+#main
+    mainWidth = 940px
+    mainHeight = 713px
+    background #000
+    color #fff
+    height mainHeight
+    width mainWidth
+
+    a
+        &:hover
+            text-decoration none
+
+    ul
+        list-style none
+        margin 0
+        padding 0
+        li
+            display block
+            margin 0
+            padding 0
+            
+    
+    .warped-modal
+        background rgba(0, 0, 0, 0.6)
+        height mainHeight
+        left 0
+        position absolute
+        top 0
+        width mainWidth
+
+        .inner
+            background-color #2a2a2a
+            height 400px
+            left 150px
+            padding 20px 20px
+            position relative
+            width 620px
+            top 100px
+
+            .nav-btn
+                position absolute
+                top 190px
+
+                &.prev-btn
+                    left -10px
+                &.next-btn
+                    left 640px
+
+            .close-modal
+                position absolute
+                left 645px
+                top -15px
+
+
+    .bio-area
+        cellWidth = 302px
+        cellHeight = 208px
+        imgWidth = 282px
+        imgHeight = 187px
+        paddingTop = 13px
+
+        height cellHeight * 3 + paddingTop + 5px
+        overflow auto
+
+        ul.featured-bios
+            margin-left ((mainWidth - cellWidth * 3) / 2)
+            padding-top 13px
+            li
+                float left
+                height cellHeight
+                width cellWidth
+
+                a
+                    display block
+
+                img.featured-image
+                    margin ((cellHeight - imgHeight) / 2) ((cellWidth - imgWidth) / 2)
+
+                img.featured-hover-image
+                    display none
+                    height cellHeight
+                    width cellWidth
+
+                &:hover
+                    img.featured-image
+                        display none
+                    img.featured-hover-image
+                        display block
+
+        .roadie-bio
+            bioPhotoWidth = 282px
+            bioPhotoHeight = 499px
+
+            color #fff
+            font-size 14px
+            margin 20px 27px 0 27px
+
+            //reset bootstrap stylin'
+            li
+                color #fff
+
+            .bio-inner
+                overflow hidden
+                .header
+                    height 104px
+                    overflow hidden
+                    .bio-logo
+                        float left
+                        margin-right 15px
+                    .content
+                        padding-top 32px
+                        .icon
+                            margin-right 5px
+                            margin-bottom 10px
+                        .time
+                            color #ff2e00
+                            font-size 20px
+                            font-weight bold
+                        
+
+                .bio-photo
+                    float left
+
+                .bio-info
+                    background-color #2a2a2a
+                    height bioPhotoHeight - 60px
+                    margin-left bioPhotoWidth
+                    overflow auto
+                    padding 30px 30px
+
+                    h2
+                        color #fff
+                        text-transform uppercase
+                        padding-left: 17px;
+                        background-repeat: no-repeat;
+                        background-image: url("../../assets/img/header-open-arrow.png");
+                        background-position: 2px 15px;
+
+                        //&.collapsed
+                        //    background-image: url("../../assets/img/header-collapsed-arrow.png");
+
+                    section
+                        border-bottom 2px solid #ff2e00
+                        padding-bottom 20px
+                        padding-top 15px
+
+                        &:first-child
+                            padding-top 0
+
+                    .videos
+                        overflow hidden
+                        .section-inner
+                            margin-left -20px
+                            ul
+                                width 660px
+                                .video
+                                    float left
+                                    margin-left 20px
+                                    margin-bottom 20px
+                                    width 120px
+
+                    .photos
+                        overflow hidden
+                        .section-inner
+                            margin-left -20px
+                            ul
+                                width 660px
+                                .photo
+                                    float left
+                                    margin-left 20px
+                                    margin-bottom 20px
+                                    width 120px
+
+
+    .carousel-area
+        .carousel
+            height 71px
+            position relative
+
+            .scroll-btn
+                display block
+                height 30px
+                padding 18px 0
+                position absolute
+                z-index 100
+
+                &.scroll-left
+                  //nothing
+                &.scroll-right
+                    top 0px
+                    left 910px
+
+            .list-wrapper
+                left 16px
+                overflow hidden
+                position relative
+                height 71px
+
+                ul
+                    cellWidth = 90px
+                    cellHeight = 67px
+                    imgWidth = 70px
+                    imgHeight = 47px
+
+                    left 15px
+                    height 71px
+                    overflow hidden
+                    position absolute
+
+                    a
+                        color #fff
+                        text-transform uppercase
+                        &:link
+                            color #fff
+                        &:visited
+                            color #fff
+                        &:hover
+                            text-decoration none
+                            
+                    li.carousel-item
+                        color #fff
+                        display block
+                        float left
+                        height cellHeight
+                        margin-right 1px
+                        width cellWidth
+
+                        img.carousel-image
+                            margin ((cellHeight - imgHeight) / 2) ((cellWidth - imgWidth) / 2)
+
+                        .carousel-hover
+                            background-color #fa2c00
+                            display none
+                            text-align center
+                            height cellHeight
+                            width cellWidth
+
+                            img
+                                margin-top 3px
+                            .caption
+                                margin-top -4px
+
+                        &:hover
+                            img.carousel-image
+                                display none
+                            .carousel-hover
+                                display block
+
+

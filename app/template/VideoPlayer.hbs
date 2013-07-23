@@ -1,0 +1,44 @@
+<div class="inner">
+    <a href="#" class="prev-btn nav-btn"><img src="assets/img/carousel-arrow-left.png"></img></a>
+    <a href="#" class="next-btn nav-btn"><img src="assets/img/carousel-arrow-right.png"></img></a>
+    <a href="#" class="close-modal"><img src="assets/img/carousel-arrow-right.png"></img></a>
+
+    {{#if ooyala}}
+    <div id="vp"></div>
+    <script src='http://player.ooyala.com/player.js?autoplay=1&height={{height}}&hide=endscreen&embedCode={{src}}&width={{width}}&targetReplaceId=vp'></script>
+    {{/if}}
+
+    {{#if youtube}}
+    <iframe type='text/html' width='{{width}}' height='{{height}}' src='http://www.youtube.com/embed/{{src}}?enablejsapi=1'
+            frameborder='0'></iframe>
+    {{/if}}
+
+    {{#if vevo}}
+    <object style='width:{{width}};height:{{height}}px;'>
+        <param name='movie'
+               value='http://videoplayer.vevo.com/embed/embedded?videoId={{src}}&playlist=false&autoplay=0&playerId={{playerId}}&playerType=embedded&env=0&siteSection=fuse_fuse.tv&sbId={{sbId}}&enableDomScan=true&endScreen=play'></param>
+        <param allowScriptAccess='always'></param>
+        <param allowFullScreen='true'></param>
+        <param bgcolor='#000000'></param>
+        <param wmode='transparent'></param>
+        <embed src='http://videoplayer.vevo.com/embed/embedded?videoId={{src}}&playlist=false&autoplay=0&playerId={{playerId}}&playerType=embedded&env=0&siteSection=fuse_fuse.tv&sbId={{sbId}}&enableDomScan=true&endScreen=play'
+               type='application/x-shockwave-flash' allowfullscreen='true' allowScriptAccess='always' bgcolor='#000000'
+               wmode='transparent' width='{{width}}' height='{{height}}'>
+            <div id='fw_300x60'
+                 style='background:black;width:620px;height:relative;position:relative;top:-6px;text-align:center;'>
+                    <span id='comp_300x60._fwph'>
+                        <form id='_fw_form_comp_300x60' style='display:none'>
+                            <input id='_fw_input_comp_300x60' type='hidden' name='_fw_input_comp_300x60'
+                                   value='ptgt=p&envp=g_iframe_js&slid=comp_300x60&w=300&h=60&slau=300x60_Companion1|300x60'>
+                        </form>
+                        <span id='_fw_container_comp_300x60._fwac'></span>
+                    </span>
+            </div>
+        </embed>
+    </object>
+    {{/if}}
+
+    <div class="descr">
+        {{descr}}
+    </div>
+</div>

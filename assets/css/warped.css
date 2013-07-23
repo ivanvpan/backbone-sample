@@ -1,0 +1,55 @@
+#main{background:#000;color:#fff;height:713px;width:940px;}
+#main a:hover{text-decoration:none}
+#main ul{list-style:none;margin:0;padding:0;}
+#main ul li{display:block;margin:0;padding:0}
+#main .warped-modal{background:rgba(0,0,0,0.6);height:713px;left:0;position:absolute;top:0;width:940px;}
+#main .warped-modal .inner{background-color:#2a2a2a;height:400px;left:150px;padding:20px 20px;position:relative;width:620px;top:100px;}
+#main .warped-modal .inner .nav-btn{position:absolute;top:190px;}
+#main .warped-modal .inner .nav-btn.prev-btn{left:-10px}
+#main .warped-modal .inner .nav-btn.next-btn{left:640px}
+#main .warped-modal .inner .close-modal{position:absolute;left:645px;top:-15px}
+#main .bio-area{height:642px;overflow:auto;}
+#main .bio-area ul.featured-bios{margin-left:17px;padding-top:13px;}
+#main .bio-area ul.featured-bios li{float:left;height:208px;width:302px;}
+#main .bio-area ul.featured-bios li a{display:block}
+#main .bio-area ul.featured-bios li img.featured-image{margin:10.5px 10px}
+#main .bio-area ul.featured-bios li img.featured-hover-image{display:none;height:208px;width:302px}
+#main .bio-area ul.featured-bios li:hover img.featured-image{display:none}
+#main .bio-area ul.featured-bios li:hover img.featured-hover-image{display:block}
+#main .bio-area .roadie-bio{color:#fff;font-size:14px;margin:20px 27px 0 27px;}
+#main .bio-area .roadie-bio li{color:#fff}
+#main .bio-area .roadie-bio .bio-inner{overflow:hidden;}
+#main .bio-area .roadie-bio .bio-inner .header{height:104px;overflow:hidden;}
+#main .bio-area .roadie-bio .bio-inner .header .bio-logo{float:left;margin-right:15px}
+#main .bio-area .roadie-bio .bio-inner .header .content{padding-top:32px;}
+#main .bio-area .roadie-bio .bio-inner .header .content .icon{margin-right:5px;margin-bottom:10px}
+#main .bio-area .roadie-bio .bio-inner .header .content .time{color:#ff2e00;font-size:20px;font-weight:bold}
+#main .bio-area .roadie-bio .bio-inner .bio-photo{float:left}
+#main .bio-area .roadie-bio .bio-inner .bio-info{background-color:#2a2a2a;height:439px;margin-left:282px;overflow:auto;padding:30px 30px;}
+#main .bio-area .roadie-bio .bio-inner .bio-info h2{color:#fff;text-transform:uppercase;padding-left:17px;background-repeat:no-repeat;background-image:url("../../assets/img/header-open-arrow.png");background-position:2px 15px}
+#main .bio-area .roadie-bio .bio-inner .bio-info section{border-bottom:2px solid #ff2e00;padding-bottom:20px;padding-top:15px;}
+#main .bio-area .roadie-bio .bio-inner .bio-info section:first-child{padding-top:0}
+#main .bio-area .roadie-bio .bio-inner .bio-info .videos{overflow:hidden;}
+#main .bio-area .roadie-bio .bio-inner .bio-info .videos .section-inner{margin-left:-20px;}
+#main .bio-area .roadie-bio .bio-inner .bio-info .videos .section-inner ul{width:660px;}
+#main .bio-area .roadie-bio .bio-inner .bio-info .videos .section-inner ul .video{float:left;margin-left:20px;margin-bottom:20px;width:120px}
+#main .bio-area .roadie-bio .bio-inner .bio-info .photos{overflow:hidden;}
+#main .bio-area .roadie-bio .bio-inner .bio-info .photos .section-inner{margin-left:-20px;}
+#main .bio-area .roadie-bio .bio-inner .bio-info .photos .section-inner ul{width:660px;}
+#main .bio-area .roadie-bio .bio-inner .bio-info .photos .section-inner ul .photo{float:left;margin-left:20px;margin-bottom:20px;width:120px}
+#main .carousel-area .carousel{height:71px;position:relative;}
+#main .carousel-area .carousel .scroll-btn{display:block;height:30px;padding:18px 0;position:absolute;z-index:100;}
+#main .carousel-area .carousel .scroll-btn.scroll-right{top:0;left:910px}
+#main .carousel-area .carousel .list-wrapper{left:16px;overflow:hidden;position:relative;height:71px;}
+#main .carousel-area .carousel .list-wrapper ul{left:15px;height:71px;overflow:hidden;position:absolute;}
+#main .carousel-area .carousel .list-wrapper ul a{color:#fff;text-transform:uppercase;}
+#main .carousel-area .carousel .list-wrapper ul a:link{color:#fff}
+#main .carousel-area .carousel .list-wrapper ul a:visited{color:#fff}
+#main .carousel-area .carousel .list-wrapper ul a:hover{text-decoration:none}
+#main .carousel-area .carousel .list-wrapper ul li.carousel-item{color:#fff;display:block;float:left;height:67px;margin-right:1px;width:90px;}
+#main .carousel-area .carousel .list-wrapper ul li.carousel-item img.carousel-image{margin:10px 10px}
+#main .carousel-area .carousel .list-wrapper ul li.carousel-item .carousel-hover{background-color:#fa2c00;display:none;text-align:center;height:67px;width:90px;}
+#main .carousel-area .carousel .list-wrapper ul li.carousel-item .carousel-hover img{margin-top:3px}
+#main .carousel-area .carousel .list-wrapper ul li.carousel-item .carousel-hover .caption{margin-top:-4px}
+#main .carousel-area .carousel .list-wrapper ul li.carousel-item:hover img.carousel-image{display:none}
+#main .carousel-area .carousel .list-wrapper ul li.carousel-item:hover .carousel-hover{display:block}
